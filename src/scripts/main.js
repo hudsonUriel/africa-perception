@@ -7,6 +7,6 @@
 
 window.onload = function(){
   // Define arquivo JSON
-	openFile("./src/config.json", "json");
+	openFile("src/config.json", "json");
 };
 

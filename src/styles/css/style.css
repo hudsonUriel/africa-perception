@@ -1,0 +1,51 @@
+/*** DEFINE AS VARIÁVEIS GLOBAIS ***/
+* {
+	color: #7f2aff;
+}
+
+@font-face {
+  font-family: "Anton";
+  src: url("../../../media/fonts/anton/anton.woff2");
+  
+}
+
+@font-face {
+  font-family: "Lato Thin";
+  src: url("../../../media/fonts/lato/lato-latin-light.woff");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../../../media/fonts/lato/lato-latin-regular.woff");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../../../media/fonts/lato/lato-latin-bold.woff");
+}
+
+/*** DEFINE AS FONTES DO SLIDE ***/
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+	font-size: 5em;
+	font-family: "Anton";
+}
+
+.reveal p, .reveal li, .reveal a, .reveal figcaption {
+  font-size: 1.5em;
+	font-family: "Lato Regular";
+  
+  color: #2a2a2a;
+    
+  text-align: justify;
+}
+
+.reveal span{
+  font-family: "Lato Bold";
+  font-weight: bold;
+  color: #c83737;
+
+  font-size: 1.25em;
+  
+  text-transform: uppercase;
+}

@@ -1,0 +1,42 @@
+/*** DEFINE AS VARIÁVEIS GLOBAIS ***/
+/// CORES
+@black-color: #2a2a2a;
+@red-color: #c83737;
+@green-color: #ff7f2a;
+@orange-color: #ff7f2a;
+@purple-color: #7f2aff;
+
+// FONTES
+@font-face{
+  src: url("../../media/fonts/anton/anton.woff2");
+  font-family: "Anton";
+}
+
+@font-face {
+  font-family: "Lato Thin";
+  src: url("../../../media/fonts/lato/lato-latin-light.woff");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../../../media/fonts/lato/lato-latin-regular.woff");
+}
+
+/*** DEFINE AS FONTES DO SLIDE ***/
+*{
+  color: @purple-color;
+}
+
+.reveal{
+  h1, h2, h3, h4, h5, h6{
+    font-size: 2em;
+    font-family: "Anton";
+  }
+  
+  p, li, a, figcaption{
+    font-size: 1em;
+    font-family: "M-Plus Thin";
+    color: @black-color;
+  }
+}
+

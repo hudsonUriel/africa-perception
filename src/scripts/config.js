@@ -3,7 +3,15 @@
 function openFile(file, rtr){
 	var request = new XMLHttpRequest();
 
-	request.open('GET', file);
+	try{
+		request.open('GET', file);
+		throw "Unknow error";
+	} catch(err){
+		console.error(err);
+		console.log("Attempt failed!");
+		return -1;
+	}
+	
 	request.send();
 	
 	request.onreadystatechange = function () {
@@ -22,8 +30,6 @@ function openFile(file, rtr){
 
 function configJSON(json){
 	json = JSON.parse(json);
-	
-	console.log("Its alive!");
 
 	json["base-files"].forEach(
 		function(file){

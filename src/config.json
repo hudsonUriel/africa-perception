@@ -1,4 +1,5 @@
 {
-  "base-folder": "../src/text/",
+  "base-folder": "./src/text/",
+  "base-folder-gh": "./africa-perceptions/src/text/",
   "base-files": ["01. capa.md"]
   }

@@ -7,7 +7,13 @@
 
 window.onload = function(){
   // Define arquivo JSON
-	openFile("./src/config.json", "json");
+  try{
+  	openFile("./src/config.json", "json");
+  	throw "Error opening locally"	;
+  } catch(err){
+  	console.log(err);
+  }
+	
 	//openFile("https://github.com/hudsonUriel/africa-perceptions/blob/gh-pages/src/config.json", "json");
 };
 

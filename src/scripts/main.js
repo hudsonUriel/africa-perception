@@ -9,7 +9,6 @@ window.onload = function(){
   // Define arquivo JSON
   try{
   	openFile("./src/config.json", "json");
-  	throw "Error opening locally"	;
   } catch(err){
   	console.error(err);
   	openFile("./africa-perceptions/src/config.json", "json");

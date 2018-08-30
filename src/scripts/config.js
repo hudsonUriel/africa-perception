@@ -5,7 +5,6 @@ function openFile(file, rtr){
 
 	try{
 		request.open('GET', file);
-		throw "Unknow error";
 	} catch(err){
 		console.error(err);
 		console.log("Attempt failed!");

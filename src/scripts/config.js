@@ -39,8 +39,15 @@ function configJSON(json){
 			document.querySelector(".reveal .slides").appendChild(elm);
 
 			// Open file
+			try{
+				openFile(json["base-folder"] + file, elm);	
+			}
+			catch(err){
+				console.error(err);
+				console.log("Retrying...");
+				openFile(json["base-folder-gh"] + file, elm);	
+			}
 			
-			openFile(json["base-folder"] + file, elm);
 		}
 	);
 

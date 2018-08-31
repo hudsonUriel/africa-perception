@@ -13,7 +13,5 @@ window.onload = function(){
   	console.error(err);
   	openFile("./africa-perceptions/src/config.json", "json");
   }
-	
-	//openFile("https://github.com/hudsonUriel/africa-perceptions/blob/gh-pages/src/config.json", "json");
 };
 

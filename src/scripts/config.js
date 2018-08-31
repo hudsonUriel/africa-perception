@@ -63,8 +63,36 @@ function loadReveal(){
       parallaxBackgroundVertical: 50,
       
       transition: 'fade', // none/fade/slide/convex/concave/zoom
-
-      transitionSpeed: 'slow' // default/fast/slow
-
+      transitionSpeed: 'slow', // default/fast/slow
+      
+      dependencies: [
+        {src: './src/lib/anime/anime.min.js', async: true}
+      ]
     });
+    
+    // Inicializa as animações quando Reveal.js carregar    
+    if(Reveal.isReady()){
+      reveal_handleReady();
+    } else{
+      Reveal.addEventListener('ready', () => reveal_handleReady());
+    }
+}
+
+function reveal_handleReady(){
+  Reveal.addEventListener( 'ready', function( event ) {
+    // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+    if (!Reveal.isOverview()) {
+        reveal_handleSlide();
+        slide_animations(Reveal.getIndices().h);
+    }
+  });
+}
+
+function reveal_handleSlide(){
+  Reveal.addEventListener( 'slidechanged', function( event ) {
+      // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+      if (!Reveal.isOverview()) {
+          slide_animations(Reveal.getIndices().h);
+      }
+  } );
 }

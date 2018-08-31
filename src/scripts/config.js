@@ -58,8 +58,13 @@ function configJSON(json){
 function loadReveal(){
 	 // Inicializa a biblioteca Reveal
     Reveal.initialize({
-      parallaxBackgroundImage: "../media/img/textura-01.jpg",
+      parallaxBackgroundImage: "./media/img/textura-01.jpg",
       parallaxBackgroundHorizontal: 50,
-      parallaxBackgroundVertical: 50
+      parallaxBackgroundVertical: 50,
+      
+      transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+      transitionSpeed: 'slow' // default/fast/slow
+
     });
 }

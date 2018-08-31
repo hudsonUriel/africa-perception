@@ -1,6 +1,6 @@
 /*** DEFINE AS VARIÁVEIS GLOBAIS ***/
 * {
-	color: #7f2aff;
+	color: #2a2a2a;
 }
 
 @font-face {
@@ -31,21 +31,9 @@
 	font-family: "Anton";
 }
 
-.reveal p, .reveal li, .reveal a, .reveal figcaption {
+.reveal p, .reveal li, .reveal a, .reveal figcaption,  .reveal span {
   font-size: 1.5em;
 	font-family: "Lato Regular";
-  
-  color: #2a2a2a;
     
   text-align: justify;
-}
-
-.reveal span{
-  font-family: "Lato Bold";
-  font-weight: bold;
-  color: #c83737;
-
-  font-size: 1.25em;
-  
-  text-transform: uppercase;
 }

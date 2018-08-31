@@ -4,36 +4,3 @@
 	position: absolute;
 }
 /*** SLIDE 01 - CAPA ***/
-.slides section:nth-child(1) p{
-	color: #454545;
-	font-family: "Lato Regular";
-
-	width: 65vw;
-	padding: 2%;
-
-	left: 25vw;
-	top: 50vw;
-
-	float: right;
-}
-
-.slides section:nth-child(1) p span{
-	font-family: "Lato Regular";
-
-	width: 25vw;
-
-	padding: 2%;
-
-	left: -25vw;
-
-	font-size: 1.5em;
-}
-
-.slides section:nth-child(1) img{
-	width: 30vw;
-
-	display: inline-block;
-	
-	left: 5vw;
-	top: 10vw;
-}

@@ -1,5 +1,5 @@
 {
   "base-folder": "./src/text/",
   "base-folder-gh": "./africa-perceptions/src/text/",
-  "base-files": ["01. capa.md"]
+  "base-files": ["01. capa.md", "02. africa-perceptions.md"]
   }

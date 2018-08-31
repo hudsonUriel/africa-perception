@@ -1,6 +1,56 @@
 /*** Configura os slides individualmente ***/
+.slides section{
+  width: 100vw;
+  height: 100vh;
+  
+  margin: 0;
+  padding: 0;
+}
 
 .slides section *{
-	position: absolute;
+  position: fixed;
+  display: inline-block;
+  width: max-content;
 }
 /*** SLIDE 01 - CAPA ***/
+.slides section:nth-child(1) img{
+  top: 15vh;
+  left: 0; 
+  
+  width: 10em;
+}
+
+.slides section:nth-child(1) h1{
+  top: 15vh;
+  left: 30%; 
+  
+  font-size: 7em;
+  
+  color: #ff2c2d;
+}
+
+.slides section:nth-child(1) h2{
+  top: 31%;
+  left: 35.5%;
+  
+  font-size: 5em;
+}
+
+.slides section:nth-child(1) p{
+  top: 70vh;
+  left: 31%;
+  
+  width: 50vw;
+  
+  color: #444;
+  font-size: 1.5em;
+}
+
+.slides section:nth-child(1) strong{
+  top: 73vh;
+  left: 10vw;
+  
+  color: #c83737;
+  font-family: "Lato Bold";
+  font-size: 1.25em;
+}

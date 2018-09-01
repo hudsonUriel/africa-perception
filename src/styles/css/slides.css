@@ -56,8 +56,9 @@
   font-size: 1.25em;
 }
 
-/*** SLIDE 02 - PERCEPTIONS (1) ***/
-.slides section:nth-child(2) h1{
+
+/*** SLIDE 02 a 11 - GERAL ***/
+.slides section h1{
   top: 30%;
   left: 0VW; 
   
@@ -68,10 +69,17 @@
   text-align: left;
 }
 
-.slides section:nth-child(2) h1 strong{
-  left: 6%;
+.slides section h1 strong{
+  top: 42%;
+  left: 3vw;
   
   color: #ff2c2d;
+}
+
+/*** SLIDE 02 - PERCEPTIONS (1) ***/
+.slides section:nth-child(2) h1 strong{
+  top: 55%;
+  left: 6%;
 }
 
 

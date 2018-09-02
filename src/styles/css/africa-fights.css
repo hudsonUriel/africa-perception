@@ -37,8 +37,7 @@
 }
 
 .slides section:nth-child(23) img,
-.slides section:nth-child(24) img,
-.slides section:nth-child(26) img{
+.slides section:nth-child(24) img{
   width: 5em;
 }
 
@@ -84,7 +83,20 @@
   width: 50%;
 }
 
+
+
+
 .slides section:nth-child(25) img{
   top: 20%;
   width: 20em;
+}
+
+/*** SLIDES 26 - NOTÍCIA ESTADO DE MINAS ***/
+.slides section:nth-child(26) p{
+  top: 60%;
+}
+
+.slides section:nth-child(26) img{
+  top: 9%;
+  width: 2.5em;
 }

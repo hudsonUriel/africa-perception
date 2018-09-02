@@ -97,7 +97,9 @@
 .slides section:nth-child(9) h1,
 .slides section:nth-child(10) h1,
 .slides section:nth-child(11) h1,
-.slides section:nth-child(12) h1{
+.slides section:nth-child(12) h1,
+.slides section:nth-child(14) h1,
+.slides section:nth-child(15) h1{
   top: 15%;
   left: 0vw; 
 }
@@ -118,7 +120,9 @@
 .slides section:nth-child(9) img,
 .slides section:nth-child(10) img,
 .slides section:nth-child(11) img,
-.slides section:nth-child(12) img{  
+.slides section:nth-child(12) img,
+.slides section:nth-child(14) img,
+.slides section:nth-child(15) img{  
   top: 10%;
   left: 50%;
   
@@ -220,4 +224,82 @@
 .slides section:nth-child(11) h2,
 .slides section:nth-child(12) h2{
   width: 50%;
+}
+
+/*** SLIDE 14 a 18 - GERAL ***/
+
+.slides section:nth-child(14) h1 strong,
+.slides section:nth-child(15) h1 strong{
+  top: 26%;
+  width: 35%;
+  left: 5%;
+}
+
+/*** SLIDE 14 - REINOS E IMPÉRIOS ***/
+
+.slides section:nth-child(14) p{
+  top: 55%;
+  left: 0vw;
+  
+  width: 45%;
+  
+  font-family: "Lato Regular";
+  font-size: 2em;
+}
+
+.slides section:nth-child(14) img{
+  font-size: 0.75em;
+}
+
+/*** SLIDE 15 - REINOS E IMPÉRIOS (2) ***/
+.slides section:nth-child(15) h3{
+  left: 6%;
+  
+  font-family: "Lato Regular";
+  font-size: 2em;
+}
+
+#afr-cng{
+  top: 55%;
+  color: #ae794d;
+}
+
+#afr-bmn{
+  top: 60%;
+  color: #ab5cfe;
+}
+
+#afr-rzw{
+  top: 65%;
+  color: #fe7f00;
+}
+
+#afr-skt{
+  top: 70%;
+  color: #00662c;
+}
+
+#afr-mar{
+  top: 75%;
+  color: #d1a9a4;
+}
+
+#afr-abs{
+  top: 80%;
+  color: #e2c43b;
+}
+
+#afr-zul{
+  top: 85%;
+  color: #a6ca61;
+}
+
+#afr-egt{
+  top: 90%;
+  color: #b52624;
+}
+
+#afr-amb{
+  top: 95%;
+  color: #003190;
 }

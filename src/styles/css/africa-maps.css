@@ -1,0 +1,135 @@
+/*** SLIDE 06 a 11 - MAPA ***/
+.slides section:nth-child(6) h1,
+.slides section:nth-child(7) h1,
+.slides section:nth-child(8) h1,
+.slides section:nth-child(9) h1,
+.slides section:nth-child(10) h1,
+.slides section:nth-child(11) h1,
+.slides section:nth-child(12) h1,
+.slides section:nth-child(14) h1,
+.slides section:nth-child(15) h1{
+  top: 15%;
+  left: 0vw; 
+}
+
+.slides section:nth-child(6) h1 strong,
+.slides section:nth-child(7) h1 strong,
+.slides section:nth-child(8) h1 strong,
+.slides section:nth-child(9) h1 strong,
+.slides section:nth-child(10) h1 strong,
+.slides section:nth-child(11) h1 strong,
+.slides section:nth-child(12) h1 strong{
+  top: 27%;
+}
+
+.slides section:nth-child(6) img,
+.slides section:nth-child(7) img,
+.slides section:nth-child(8) img,
+.slides section:nth-child(9) img,
+.slides section:nth-child(10) img,
+.slides section:nth-child(11) img,
+.slides section:nth-child(12) img,
+.slides section:nth-child(14) img,
+.slides section:nth-child(15) img{  
+  top: 10%;
+  left: 50%;
+  
+  width: 20em;
+}
+
+.slides section:nth-child(6) h2,
+.slides section:nth-child(7) h2,
+.slides section:nth-child(8) h2,
+.slides section:nth-child(9) h2,
+.slides section:nth-child(10) h2,
+.slides section:nth-child(11) h2,
+.slides section:nth-child(12) h2{  
+  top: 45%;
+  left: 0vw;
+  
+  font-family: "Lato Bold";
+  font-size: 2.5em;
+}
+
+/*** SLIDE 06 - MAPA DE PAÍSES ***/
+
+.slides section:nth-child(6) h2 strong{  
+  top: 45%;
+  left: 29%;
+  
+  font-family: "Lato Regular";
+  color: #7f2aff;
+}
+
+/*** SLIDE 06 - MAPA DE REGIÕES ***/
+.slides section:nth-child(7) h2{  
+  left: 5%;
+}
+
+#afr-set{
+  top: 45%; 
+  color: #ff2c2d;
+}
+
+#afr-ocd{
+  top: 55%;
+  color: #17ff2e;
+}
+
+#afr-cnt{
+  top: 65%;
+  color: #7f2aff;
+}
+
+#afr-ort{
+  top: 75%;
+  color: #222;
+}
+
+#afr-mer{
+  top: 85%;
+  color: #ff7f2a;
+}
+
+/*** SLIDE 08 - MAPA DE CLIMAS ***/
+.slides section:nth-child(8) h3{  
+  left: 6.5%;
+  
+  font-size: 2.25em;
+  font-family: "Lato Bold";
+}
+
+#clm-tpc{
+  top: 52%;
+  
+  color: #3aaafc;
+}
+
+#clm-eqt{
+  top: 58%;
+  
+  color: #0e73fc;
+}
+
+#clm-sbt{
+  top: 64%;
+  
+  color: #5fc765;
+}
+
+#clm-drt{
+  top: 70%;
+  
+  color: #ff9900;
+}
+
+/*** SLIDE 09 - MAPA DE TEMPERATURAS ***/
+/*** SLIDE 10 - MAPA DE CHUVAS ***/
+/*** SLIDE 10 - MAPA DE VEGETAÇÃO ***/
+/*** SLIDE 11 - MAPA DE RIOS ***/
+.slides section:nth-child(9) h2,
+.slides section:nth-child(10) h2,
+.slides section:nth-child(11) h2,
+.slides section:nth-child(12) h2{
+  width: 50%;
+}

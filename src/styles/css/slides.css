@@ -322,3 +322,21 @@
   
   width: 40em;
 }
+
+/*** SLIDE 17 - COLONIZAÇÃO (2) ***/
+.slides section:nth-child(17) h1 strong:nth-child(1){
+  font-size: 0.5em;
+  
+  text-decoration: line-through;
+}
+
+.slides section:nth-child(17) h1 strong:nth-child(1){
+  top: 52%;
+}
+
+.slides section:nth-child(17) img{
+  top: 30%;
+  left: 55%;
+  
+  width: 18em;
+}

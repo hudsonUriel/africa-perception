@@ -106,9 +106,75 @@
   top: 52%;
 }
 
-.slides section:nth-child(17) img{
+.slides section:nth-child(17) img,
+.slides section:nth-child(18) img,
+.slides section:nth-child(19) img,
+.slides section:nth-child(20) img,
+.slides section:nth-child(21) img{
   top: 30%;
   left: 55%;
   
   width: 18em;
+}
+
+/*** SLIDE 18 a 21 - CONFERÊNCIA DE BERLIM ***/
+
+.slides section:nth-child(18) h1 strong,
+.slides section:nth-child(19) h1 strong,
+.slides section:nth-child(20) h1 strong,
+.slides section:nth-child(21) h1 strong{
+  top: 55%;
+  left: 0vw;
+  
+  width: 50%;
+  
+  font-size: 0.75em;
+}
+
+.slides section:nth-child(19) h2{
+  font-family: "Lato Regular";
+  
+  width: 65%;
+  top: 20%;
+  
+  color: #7f2aff;
+  font-size: 1.5em;
+  
+}
+
+.slides section:nth-child(19) p{
+  width: 65%;
+}
+
+.slides section:nth-child(19) p:nth-child(2){
+  top: 30%;
+}
+
+
+.slides section:nth-child(19) p:nth-child(3){
+  top: 40%;
+}
+
+.slides section:nth-child(19) p:nth-child(4){
+  top: 57%;
+}
+
+.slides section:nth-child(19) p:nth-child(5){
+  width: 95%;
+  
+  font-size: 1.75em;
+  
+  top: 70%;
+  left: 0;
+}
+
+.slides section:nth-child(20) img{
+  top: 20%;
+}
+
+.slides section:nth-child(21) img{
+  top: 30%;
+  left: 60%;
+  
+  width: 15em;
 }

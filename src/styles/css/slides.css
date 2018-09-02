@@ -96,7 +96,8 @@
 .slides section:nth-child(8) h1,
 .slides section:nth-child(9) h1,
 .slides section:nth-child(10) h1,
-.slides section:nth-child(11) h1{
+.slides section:nth-child(11) h1,
+.slides section:nth-child(12) h1{
   top: 15%;
   left: 0vw; 
 }
@@ -106,7 +107,8 @@
 .slides section:nth-child(8) h1 strong,
 .slides section:nth-child(9) h1 strong,
 .slides section:nth-child(10) h1 strong,
-.slides section:nth-child(11) h1 strong{
+.slides section:nth-child(11) h1 strong,
+.slides section:nth-child(12) h1 strong{
   top: 27%;
 }
 
@@ -115,7 +117,8 @@
 .slides section:nth-child(8) img,
 .slides section:nth-child(9) img,
 .slides section:nth-child(10) img,
-.slides section:nth-child(11) img{  
+.slides section:nth-child(11) img,
+.slides section:nth-child(12) img{  
   top: 10%;
   left: 50%;
   
@@ -127,7 +130,8 @@
 .slides section:nth-child(8) h2,
 .slides section:nth-child(9) h2,
 .slides section:nth-child(10) h2,
-.slides section:nth-child(11) h2{  
+.slides section:nth-child(11) h2,
+.slides section:nth-child(12) h2{  
   top: 45%;
   left: 0vw;
   
@@ -210,8 +214,10 @@
 /*** SLIDE 09 - MAPA DE TEMPERATURAS ***/
 /*** SLIDE 10 - MAPA DE CHUVAS ***/
 /*** SLIDE 10 - MAPA DE VEGETAÇÃO ***/
+/*** SLIDE 11 - MAPA DE RIOS ***/
 .slides section:nth-child(9) h2,
 .slides section:nth-child(10) h2,
-.slides section:nth-child(11) h2{
+.slides section:nth-child(11) h2,
+.slides section:nth-child(12) h2{
   width: 50%;
 }

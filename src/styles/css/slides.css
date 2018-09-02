@@ -303,3 +303,22 @@
   top: 95%;
   color: #003190;
 }
+
+/*** SLIDE 16 - COLONIZAÇÃO ***/
+
+.slides section:nth-child(16) h1{
+  left: 0%;
+  top: 75%;
+}
+
+.slides section:nth-child(16) h1 strong{
+  left: 25%;
+  top: 75%;
+}
+
+.slides section:nth-child(16) img{
+  left: 0%;
+  top: 10%;
+  
+  width: 40em;
+}

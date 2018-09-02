@@ -90,23 +90,36 @@
   width: 6em;
 }
 
-/*** SLIDE 05 - MAPA ***/
-.slides section:nth-child(6) h1{
+/*** SLIDE 06 a 11 - MAPA ***/
+.slides section:nth-child(6) h1,
+.slides section:nth-child(7) h1{
   top: 15%;
   left: 0vw; 
 }
 
-.slides section:nth-child(6) h1 strong{
+.slides section:nth-child(6) h1 strong,
+.slides section:nth-child(7) h1 strong{
   top: 27%;
 }
 
-.slides section:nth-child(6) h2{  
+.slides section:nth-child(6) img,
+.slides section:nth-child(7) img{  
+  top: 5%;
+  left: 50%;
+  
+  width: 20em;
+}
+
+.slides section:nth-child(6) h2,
+.slides section:nth-child(7) h2{  
   top: 45%;
   left: 0vw;
   
   font-family: "Lato Bold";
   font-size: 2.5em;
 }
+
+/*** SLIDE 06 - MAPA DE PAÍSES ***/
 
 .slides section:nth-child(6) h2 strong{  
   top: 45%;
@@ -116,9 +129,32 @@
   color: #7f2aff;
 }
 
-.slides section:nth-child(6) img{  
-  top: 5%;
-  left: 50%;
-  
-  width: 20em;
+/*** SLIDE 06 - MAPA DE REGIÕES ***/
+.slides section:nth-child(7) h2{  
+  left: 5%;
+}
+
+#afr-set{
+  top: 45%; 
+  color: #ff2c2d;
+}
+
+#afr-ocd{
+  top: 55%;
+  color: #17ff2e;
+}
+
+#afr-cnt{
+  top: 65%;
+  color: #7f2aff;
+}
+
+#afr-ort{
+  top: 75%;
+  color: #222;
+}
+
+#afr-mer{
+  top: 85%;
+  color: #ff7f2a;
 }

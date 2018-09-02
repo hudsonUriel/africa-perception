@@ -110,7 +110,8 @@
 .slides section:nth-child(18) img,
 .slides section:nth-child(19) img,
 .slides section:nth-child(20) img,
-.slides section:nth-child(21) img{
+.slides section:nth-child(21) img,
+.slides section:nth-child(25) img{
   top: 30%;
   left: 55%;
   

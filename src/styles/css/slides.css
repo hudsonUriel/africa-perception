@@ -92,26 +92,30 @@
 
 /*** SLIDE 06 a 11 - MAPA ***/
 .slides section:nth-child(6) h1,
-.slides section:nth-child(7) h1{
+.slides section:nth-child(7) h1,
+.slides section:nth-child(8) h1{
   top: 15%;
   left: 0vw; 
 }
 
 .slides section:nth-child(6) h1 strong,
-.slides section:nth-child(7) h1 strong{
+.slides section:nth-child(7) h1 strong,
+.slides section:nth-child(8) h1 strong{
   top: 27%;
 }
 
 .slides section:nth-child(6) img,
-.slides section:nth-child(7) img{  
-  top: 5%;
+.slides section:nth-child(7) img,
+.slides section:nth-child(8) img{  
+  top: 10%;
   left: 50%;
   
   width: 20em;
 }
 
 .slides section:nth-child(6) h2,
-.slides section:nth-child(7) h2{  
+.slides section:nth-child(7) h2,
+.slides section:nth-child(8) h2{  
   top: 45%;
   left: 0vw;
   
@@ -158,3 +162,36 @@
   top: 85%;
   color: #ff7f2a;
 }
+
+/*** SLIDE 08 - MAPA DE CLIMAS ***/
+.slides section:nth-child(8) h3{  
+  left: 6.5%;
+  
+  font-size: 2.25em;
+  font-family: "Lato Bold";
+}
+
+#clm-tpc{
+  top: 52%;
+  
+  color: #3aaafc;
+}
+
+#clm-eqt{
+  top: 58%;
+  
+  color: #0e73fc;
+}
+
+#clm-sbt{
+  top: 64%;
+  
+  color: #5fc765;
+}
+
+#clm-drt{
+  top: 70%;
+  
+  color: #ff9900;
+}
+

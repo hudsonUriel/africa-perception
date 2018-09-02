@@ -3,15 +3,28 @@
   "base-folder-gh": "./africa-perceptions/src/text/",
   "base-files": [
     "01. capa.md",
+    
     "02. africa-perceptions.md",
+    
     "03. o-mundo-hoje.md",
+    
     "04. a-africa-hoje.md",
+    
     "05. africa-geografia-fisica.md",
+    "05a. africa-mapa.md",
+    "05b. africa-regioes.md",
+    "05c. africa-climas.md",
+    
     "06. africa-historia.md",
+    
     "07. africa-conflitos.md",
+    
     "08. africa-pobreza.md",
+    
     "09. africa-economia.md",
+    
     "10. africa-perspectivas.md",
+    
     "11. africa-perceptions.md"
   ]
 }

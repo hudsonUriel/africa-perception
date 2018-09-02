@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.34885188"
-     inkscape:cx="-898.55509"
-     inkscape:cy="595.07214"
+     inkscape:cx="-948.71965"
+     inkscape:cy="146.61952"
      inkscape:document-units="mm"
      inkscape:current-layer="text4159"
      showgrid="false"
@@ -61,18 +61,14 @@
     <g
        style="font-style:normal;font-weight:normal;font-size:56.02563858px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ff2c2d;stroke-width:2.50000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="text4159">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:137.83831787px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ff2c2d;stroke-width:3.50000014;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="-3.0364466"
-         y="295.86359"
-         id="text4135"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4137"
-           x="-3.0364466"
-           y="295.86359"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Anton;-inkscape-font-specification:Anton;fill:none;stroke:#ff2c2d;stroke-width:3.50000014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">?</tspan></text>
+      <g
+         style="font-style:normal;font-weight:normal;font-size:137.83831787px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ff2c2d;stroke-width:3.50000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="text4135">
+        <path
+           id="path4137"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Anton;-inkscape-font-specification:Anton;fill:none;stroke:#ff2c2d;stroke-width:3.50000024;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 32.163475,182.12005 q 5.788133,0 10.4321,1.07686 4.71127,1.07687 7.941856,2.89407 3.297889,1.81721 5.720829,4.64397 2.422939,2.75946 3.83632,5.78813 1.413381,3.02867 2.221027,6.9996 0.874951,3.90363 1.144166,7.53804 0.33652,3.6344 0.33652,8.07646 0,8.14377 -1.951813,14.80685 -1.951812,6.66308 -5.990044,11.91278 -4.038232,5.24971 -10.903226,8.14377 -6.79769,2.89407 -16.01832,2.89407 l 0,11.44166 -22.4121876,0 0,-27.99841 q 5.5862206,0 9.8263646,-0.26922 4.240143,-0.26921 7.538033,-1.00956 3.365193,-0.74034 5.653525,-1.61529 2.288331,-0.94225 3.903624,-2.62485 1.682597,-1.6826 2.624851,-3.36519 0.942254,-1.7499 1.480685,-4.57667 0.538431,-2.82676 0.673038,-5.51891 0.201912,-2.69216 0.201912,-6.79769 0,-5.1151 -1.346077,-8.00916 -1.278774,-2.96137 -4.913183,-2.96137 -0.942254,0 -1.615292,0.1346 -0.673039,0.0673 -1.682597,0.80765 -0.942254,0.67304 -1.547989,1.95181 -0.605735,1.21147 -1.076862,3.70171 -0.403823,2.42294 -0.403823,5.92275 l 0,9.82636 -24.633215,0 0,-17.09518 q 0,-13.32617 8.4129833,-19.98925 8.4802867,-6.73039 22.5467947,-6.73039 z m -26.3831151,113.67623 0,-20.05655 24.0947841,0 0,20.05655 -24.0947841,0 z" />
+      </g>
     </g>
   </g>
 </svg>

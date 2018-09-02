@@ -93,20 +93,29 @@
 /*** SLIDE 06 a 11 - MAPA ***/
 .slides section:nth-child(6) h1,
 .slides section:nth-child(7) h1,
-.slides section:nth-child(8) h1{
+.slides section:nth-child(8) h1,
+.slides section:nth-child(9) h1,
+.slides section:nth-child(10) h1,
+.slides section:nth-child(11) h1{
   top: 15%;
   left: 0vw; 
 }
 
 .slides section:nth-child(6) h1 strong,
 .slides section:nth-child(7) h1 strong,
-.slides section:nth-child(8) h1 strong{
+.slides section:nth-child(8) h1 strong,
+.slides section:nth-child(9) h1 strong,
+.slides section:nth-child(10) h1 strong,
+.slides section:nth-child(11) h1 strong{
   top: 27%;
 }
 
 .slides section:nth-child(6) img,
 .slides section:nth-child(7) img,
-.slides section:nth-child(8) img{  
+.slides section:nth-child(8) img,
+.slides section:nth-child(9) img,
+.slides section:nth-child(10) img,
+.slides section:nth-child(11) img{  
   top: 10%;
   left: 50%;
   
@@ -115,7 +124,10 @@
 
 .slides section:nth-child(6) h2,
 .slides section:nth-child(7) h2,
-.slides section:nth-child(8) h2{  
+.slides section:nth-child(8) h2,
+.slides section:nth-child(9) h2,
+.slides section:nth-child(10) h2,
+.slides section:nth-child(11) h2{  
   top: 45%;
   left: 0vw;
   
@@ -195,3 +207,11 @@
   color: #ff9900;
 }
 
+/*** SLIDE 09 - MAPA DE TEMPERATURAS ***/
+/*** SLIDE 10 - MAPA DE CHUVAS ***/
+/*** SLIDE 10 - MAPA DE VEGETAÇÃO ***/
+.slides section:nth-child(9) h2,
+.slides section:nth-child(10) h2,
+.slides section:nth-child(11) h2{
+  width: 50%;
+}

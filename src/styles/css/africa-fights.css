@@ -168,7 +168,9 @@
 .slides section:nth-child(36) img,
 .slides section:nth-child(37) img,
 .slides section:nth-child(38) img,
-.slides section:nth-child(39) img{
+.slides section:nth-child(39) img,
+.slides section:nth-child(40) img,
+.slides section:nth-child(41) img{
   top: 15%;
   left: 55%;
   
@@ -178,6 +180,7 @@
 /*** SLIDES 35 - CONFLITOS INTERNOS (SOMÁLIA) ***/
 /*** SLIDES 38 - CONFLITOS INTERNOS (ZIMBABWE) ***/
 .slides section:nth-child(35) img,
-.slides section:nth-child(39) img{
+.slides section:nth-child(39) img,
+.slides section:nth-child(41) img{
   top: 30%;
 }

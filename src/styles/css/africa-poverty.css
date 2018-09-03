@@ -1,6 +1,8 @@
 .slides section:nth-child(44) img,
 .slides section:nth-child(46) img,
-.slides section:nth-child(48) img{
+.slides section:nth-child(48) img,
+.slides section:nth-child(50) img,
+.slides section:nth-child(52) img{
   top: 25%;
   left: 55%;
   

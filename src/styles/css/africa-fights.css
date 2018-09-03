@@ -130,14 +130,13 @@
 
 #repercussao{
   top: 57.5%;
-  left: 0%;
   
   width: 65%;
 }
 
 #repercussao span{
-  left: 10%;
-  width: 50%;
+  left: 2.5%;
+  width: 60%;
 }
 
 #status-fight-ok{
@@ -162,9 +161,23 @@
 .slides section:nth-child(28) img,
 .slides section:nth-child(29) img,
 .slides section:nth-child(30) img,
-.slides section:nth-child(31) img{
+.slides section:nth-child(31) img,
+.slides section:nth-child(33) img,
+.slides section:nth-child(34) img,
+.slides section:nth-child(35) img,
+.slides section:nth-child(36) img,
+.slides section:nth-child(37) img,
+.slides section:nth-child(38) img,
+.slides section:nth-child(39) img{
   top: 15%;
   left: 55%;
   
   width: 18em;
+}
+
+/*** SLIDES 35 - CONFLITOS INTERNOS (SOMÁLIA) ***/
+/*** SLIDES 38 - CONFLITOS INTERNOS (ZIMBABWE) ***/
+.slides section:nth-child(35) img,
+.slides section:nth-child(39) img{
+  top: 30%;
 }

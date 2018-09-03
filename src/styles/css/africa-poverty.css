@@ -1,0 +1,44 @@
+.slides section:nth-child(44) img,
+.slides section:nth-child(46) img,
+.slides section:nth-child(48) img{
+  top: 25%;
+  left: 55%;
+  
+  width: 18em;
+}
+
+.slides section:nth-child(45) h2,
+.slides section:nth-child(46) h2{
+  top: 60%;
+  
+  font-family: "Lato Bold";
+  font-size: 1.5em;
+  
+  width: 50%;
+}
+
+.slides section:nth-child(47) img{
+  top: 10%;
+  left: 0%;
+  
+  z-index: 0;
+  
+  width: 40em;
+}
+
+.slides section:nth-child(47) a{
+  top: 54%;
+  left: 5%;
+  
+  text-decoration: none;
+  font-size: 2em;
+  
+  color: #eee;
+  
+  font-family: "Anton";
+}
+
+.slides section:nth-child(47) h1{
+  color: #eee;
+  left: 2.5%;
+}

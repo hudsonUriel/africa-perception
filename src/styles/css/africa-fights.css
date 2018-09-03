@@ -184,3 +184,22 @@
 .slides section:nth-child(41) img{
   top: 30%;
 }
+
+.slides section:nth-child(42) img{
+  top: 10%;
+  left: 0%;
+  
+  z-index: 0;
+  
+  width: 40em;
+}
+
+.slides section:nth-child(42) a{
+  top: 54%;
+  left: 5%;
+  
+  text-decoration: none;
+  font-size: 2em;
+  
+  font-family: "Anton";
+}
